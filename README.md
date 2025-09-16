@@ -1,6 +1,15 @@
 # FPAD
-Deep cross-modal hashing models generally inherit the vulnerabilities of deep neural networks, making them susceptible to adversarial attacks and thus posing a serious security risk during real-world deployment. 
-Current adversarial attack or defense strategies often establish a weak correlation between the hashing codes and the targeted semantic representations, and there is a lack of related works that  simultaneously consider the attack and defense for deep cross-modal hashing. 
-Additionally,  these strategies are inadequate in producing cross-modal adversarial examples that significantly enhance the model robustness throughout the training process. 
-To alleviate these concerns, we propose a Fuzzy-Prototype-guided Adversarial Attack and Defense (FPAD) framework to enhance the adversarial robustness of deep cross-modal hashing models.
-# We will release our code soon...
+The official pytorch implementation of "FPAD: Fuzzy-Prototype-guided Adversarial Attack and Defense for Deep Cross-Modal Hashing".
+# Requirements
+- Python 3.9.16
+- PyTorch 2.0.1
+- numpy 1.23.4
+- scipy 1.10.1
+- h5py 3.9.0
+# Datasets
+We follow [EQB2A](https://github.com/tswang0116/EQB2A/issues) to obtain image and text features.
+
+The three cross-modal datasets can be downloaded from https://pan.baidu.com/s/1RU5cD-tJ7vgf4bvnBdnTXw?pwd=mvg7.
+# Training
+Coming soon
+
