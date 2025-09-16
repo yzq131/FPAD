@@ -3,7 +3,7 @@ The official pytorch implementation of "FPAD: Fuzzy-Prototype-guided Adversarial
 # Requirements
 - Python 3.9.16
 - PyTorch 2.0.1
-- numpy 1.23.4
+- numpy 1.26.4
 - scipy 1.10.1
 - h5py 3.9.0
 # Datasets
